@@ -1,9 +1,9 @@
 <?php
 //Conexão com o banco de dados
-$servername = "localhost";
-$username = "root";
+$servername = "";
+$username = "";
 $password = "";
-$db_name = "crud";
+$db_name = "";
 
 $mysqli = new mysqli($servername, $username, $password, $db_name);
 if($mysqli->connect_error)
